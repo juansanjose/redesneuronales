@@ -240,7 +240,8 @@ irifitnessfunction.o: irifitnessfunction.cpp /usr/include/stdc-predef.h \
  ../simulator.h ../sensor.h ../sensors/batterysensor.h ../arena.h \
  ../sensors/groundsensor.h ../sensors/groundmemorysensor.h \
  ../sensors/lightsensor.h ../sensors/bluelightsensor.h \
- ../sensors/redlightsensor.h ../sensors/contactsensor.h \
+ ../sensors/redlightsensor.h ../sensors/realredlightsensor.h \
+ ../sensors/redbatterysensor.h ../sensors/contactsensor.h \
  ../collisions/collisionmanager.h
 
 /usr/include/stdc-predef.h:
@@ -936,6 +937,10 @@ irifitnessfunction.h:
 ../sensors/bluelightsensor.h:
 
 ../sensors/redlightsensor.h:
+
+../sensors/realredlightsensor.h:
+
+../sensors/redbatterysensor.h:
 
 ../sensors/contactsensor.h:
 

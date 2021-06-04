@@ -267,9 +267,9 @@ void CIriFitnessFunction::SimulationStep(unsigned int n_simulation_step, double 
 	  else
 	  {
 //		  if(rand()>0.5)
-	    fitness *= (( blueLightS0 + blueLightS7)/2);
+//	    fitness *= (( blueLightS0 + blueLightS7)/2);
 //		  else
-//		fitness *= (( redLightS0 + redLightS7)/2);
+		fitness *= (( redLightS0 + redLightS7)/2);
 
 
 	    if (m_unGreyFlag == 1)
