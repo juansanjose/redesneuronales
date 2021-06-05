@@ -127,16 +127,16 @@ void CBlueLightObject::Reset ( void )
 int CBlueLightObject::GetTiming ( unsigned int n_step_number )
 {
   
-  //printf("Act: Blue: %d\n", m_nActivation);
-
-	/* Create sequence */
-  //if ( !(n_step_number % 500) )
-  //{
-    ///* toggle light */
-    //m_nActivation ^= 0x1;
-  //}
-
-	/* default return true */
+//  //printf("Act: Blue: %d\n", m_nActivation);
+//
+//	/* Create sequence */
+//  if ( !(n_step_number % 400) )
+//  {
+//    /* toggle light */
+//   m_nActivation ^= 0x1;
+//  }
+//
+//	/* default return true */
 	return m_nActivation;
 
 }
